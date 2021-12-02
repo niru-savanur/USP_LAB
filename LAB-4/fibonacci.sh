@@ -2,7 +2,7 @@ a1=0
 a2=1
 echo "Enter positive value (>0)"
 read n
-echo "fibonacci series upto $n is:"
+echo "first $n numbers of the fibonacci series are:"
 if [ $n -eq 1 ]
 then
 	echo "$a1" 
